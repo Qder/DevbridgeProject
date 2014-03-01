@@ -16,7 +16,7 @@
             font-size: x-large;
         }
         .auto-style2 {
-            width: 100%;
+            width: 50%;
         }
         .auto-style3 {
             width: 101px;
