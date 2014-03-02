@@ -7,13 +7,19 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <asp:Label ID="Label1" runat="server" Text="Welcome..."></asp:Label>
+    <form id="form1" runat="server">   
     <div>
-    
+        <asp:Menu ID="Menu1" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Admin.aspx" Text="Users" Value="Users"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Log Out" />
-    
     </div>
+        <div>
+
+        </div>
     </form>
 </body>
 </html>

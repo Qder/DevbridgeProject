@@ -37,6 +37,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter user name..." ControlToValidate="TextBoxName" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     <br />
                     <asp:CustomValidator ID="CustomValidator1" runat="server" ControlToValidate="TextBoxName" Display="Dynamic" ErrorMessage="This username already exists" ForeColor="#FF3300" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
+                
                 </td>
             </tr>
             <tr>

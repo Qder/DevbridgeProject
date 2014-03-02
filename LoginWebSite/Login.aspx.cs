@@ -29,7 +29,14 @@ public partial class Login : System.Web.UI.Page
             if (password == TextBox2.Text)
             {
                 Session["New"] = TextBox1.Text;
-                Response.Redirect("Secure.aspx");
+                if (TextBox1.Text == "admin")
+                {
+                    Response.Redirect("Secure.aspx");
+                }
+                else
+                {
+                    Response.Redirect("User.aspx");
+                }
             }
             else
             {

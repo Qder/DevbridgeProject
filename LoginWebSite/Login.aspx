@@ -16,10 +16,10 @@
             font-size: x-large;
         }
         .auto-style2 {
-            width: 50%;
+            width: 100%;
         }
         .auto-style3 {
-            width: 101px;
+            width: 100px;
             text-align: right;
         }
         .auto-style4 {

@@ -67,4 +67,5 @@ public partial class Registration : System.Web.UI.Page
             args.IsValid = true;
         }
     }
+
 }

@@ -11,4 +11,9 @@ public partial class Admin : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Session["New"] = null;
+        Response.Redirect("Login.aspx");
+    }
 }
