@@ -22,4 +22,8 @@ public partial class User : System.Web.UI.Page
     {
         Response.Redirect("Login.aspx");
     }
+    protected void TryNAudio ()
+    {
+
+    }
 }

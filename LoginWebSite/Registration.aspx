@@ -31,7 +31,7 @@
             <tr>
                 <td class="auto-style3">User Name</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="TextBoxName" runat="server" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxName" runat="server" Width="180px" OnTextChanged="TextBoxName_TextChanged"></asp:TextBox>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter user name..." ControlToValidate="TextBoxName" ForeColor="#FF3300"></asp:RequiredFieldValidator>

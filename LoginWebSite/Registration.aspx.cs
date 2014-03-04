@@ -68,4 +68,8 @@ public partial class Registration : System.Web.UI.Page
         }
     }
 
+    protected void TextBoxName_TextChanged(object sender, EventArgs e)
+    {
+        CustomValidator1_ServerValidate(TextBoxName, null);
+    }
 }
